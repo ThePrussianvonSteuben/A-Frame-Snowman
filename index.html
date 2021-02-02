@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNowman</title>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+
+</head>
+<body>
+    
+
+    <a-scene>
+
+        <a-sky color="grey">
+
+        </a-sky>
+
+        <a-plane position="0 -3 0" rotation="-90 0 0" width="100" height="100" color="snow">
+
+        </a-plane>
+
+        <a-sphere color="snow" radius="1.75" position="5 -2 5">
+
+            <a-sphere color="snow" radius="1.2" position="0 1.782 0">
+
+            </a-sphere>
+
+            <a-sphere color="snow" radius="0.75" position="0 3.253 0">
+
+                <a-cone color="orange" height="0.3" radius="0.05" position="1 0 0" rotation="-90 -90 0" scale="0.061 1.676 0.061" radiusTop="0.010">
+    
+                </a-cone>
+    
+                <a-cylinder color="black" radius="0.05" position="0.65 0.188 -0.338" rotation="-90 -90 0" scale="1 0.092 1">
+    
+                </a-cylinder>
+    
+                <a-cylinder color="black" radius="0.05" position="0.65 0.188 0.338" rotation="-90 -90 0" scale="1 0.092 1">
+                    
+                </a-cylinder>
+
+                <a-cylinder color="black" radius="0.5" position="0 1 0">
+
+                </a-cylinder>
+
+                <a-circle color="black" radius="1" position="0 0.565 0" rotation="90 0 0" side="double">
+
+                </a-circle>
+    
+            </a-sphere>
+
+        </a-sphere>
+
+    </a-scene>
+
+</body>
+
+</html>
